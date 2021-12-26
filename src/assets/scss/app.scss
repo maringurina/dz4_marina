@@ -1,3 +1,20 @@
+$primary-color: #dc780b;
+
 html {
-  background: red;
+  color: $primary-color;
 }
+.item {
+  p {
+  }
+  h4 {
+  }
+}
+.item {
+  color: green;
+
+  &__img {
+  }
+  &__tile {
+  }
+}
+@import "./components/header.scss";
